@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5t6K5MiikrMxuXio3ckb
+      secret-key: BWCBbRYdYv7aQk2IlDUtJraPLcHLR3
+      oss:
+        endpoint: oss-cn-qingdao.aliyuncs.com
+        bucket: phonemall-hello
+  application:
+    name: phonemall-third-party
+
+
+server:
+  port: 30000
+
